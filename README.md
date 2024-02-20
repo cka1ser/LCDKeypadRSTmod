@@ -6,6 +6,10 @@ LCDKeypad shield is quite common and popular. It includes 16x2 HD44780 compatibl
 
 ![alt text](extras/shield.jpg)
 
+## Work in progress
+
+THIS FORK IS NOT YET READY. WAIT FOR THE FIRST RELEASE BEFORE USING IT.
+
 ## Reset button mod on the Keypad Shield
 
 TO BE DEFINED
