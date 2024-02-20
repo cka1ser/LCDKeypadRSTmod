@@ -1,12 +1,12 @@
 {
   "name": "LCDKeypad",
-  "keywords": "lcd, button, hd44780, lcdkeypad, keyboard",
-  "description": "Control display, read button state and toggle backlight of LCDKeypad shield.",
+  "keywords": "lcd, button, reset, hd44780, lcdkeypad, keyboard",
+  "description": "Control display, read button state and toggle backlight of LCDKeypad shield with added support for a modded RST button",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dzindra/LCDKeypad.git"
+    "url": "https://github.com/cka1ser/LCDKeypadRSTmod.git"
   },
-  "version": "1.1.0",
+  "version": "1.0",
   "license": "Apache-2.0",
   "frameworks": "arduino",
   "platforms": "atmelavr"
