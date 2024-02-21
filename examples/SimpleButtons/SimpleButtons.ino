@@ -1,11 +1,11 @@
 /*
 
-  LCDKeypad Arduino library
-  https://github.com/dzindra/LCDKeypad
+  LCDKeypadRSTmod Arduino library
+  https://github.com/cka1ser/LCDKeypadRSTmod
   
-  Copyright 2014 Jindřich Doležy (jindrich@dolezy.cz)
-  based on the code by fj604 from http://forum.arduino.cc/index.php?topic=38061.0
-
+  © 2024 Christian Kaiser.
+  Based on the code by dzindra from https://github.com/dzindra/LCDKeypad, 
+  that is based on the code by fj604 from http://forum.arduino.cc/index.php?topic=38061.0
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -21,9 +21,9 @@
 */
 
 #include <LiquidCrystal.h>
-#include <LCDKeypad.h>
+#include <LCDKeypadRSTmod.h>
 
-LCDKeypad lcd;
+LCDKeypadRSTmod lcd;
 
 void setup() {
   lcd.begin(16,2);
@@ -54,6 +54,9 @@ void loop() {
       break;
     case KEYPAD_SELECT:
       lcd.print("SELECT");
+      break;
+    case KEYPAD_RST:
+      lcd.print("RST");
       break;
     default:
       lcd.print("NONE  ");
