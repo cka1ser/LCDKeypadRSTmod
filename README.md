@@ -6,13 +6,9 @@ LCDKeypad shield is quite common and popular. It includes 16x2 HD44780 compatibl
 
 ![alt text](extras/shield.jpg)
 
-## Work in progress
-
-THIS FORK IS NOT YET READY. WAIT FOR THE FIRST RELEASE BEFORE USING IT.
-
 ## Reset button mod on the Keypad Shield
 
-TO BE DEFINED
+The library needs a modded LCD Keypad Shield in order for the RST button to work. An instruction for this mod can be found here: https://www.instructables.com/LCD-Keypad-Shield-Reset-Button-Mod/
 
 ## Install
 
