@@ -33,6 +33,7 @@
 #define KEYPAD_DOWN 3
 #define KEYPAD_LEFT 4
 #define KEYPAD_SELECT 5
+#define KEYPAD_RST 6 // added option for RST button
 #define KEYPAD_BLOCKED 255
 
 #define KEYPAD_BUTTON_ANALOG_PIN 0
